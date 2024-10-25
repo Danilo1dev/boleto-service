@@ -15,7 +15,7 @@ public class BoletoController {
 
     @GetMapping("/buscar")
     public ResponseEntity<String> buscaDados() {
-        log.info("CONTROLLER: OK");
+        log.info("CONTROLLER: BOLETO_SERVICE");
         return new ResponseEntity<>("OK", HttpStatus.OK);
     }
 }
